@@ -1,17 +1,16 @@
-﻿namespace Sum_Each_Column_in_Matrix;
+﻿namespace Sum_Each_Column_in_Matrix_in_Array;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Four
-        // Sum Each Column in Matrix
+        // Problem Five
+        // Sum Each Column in Matrix in Array
         var arr = FillArr(3, 3, 1, 100);
-        PrintSumOfEachColumn($"The following are the sum of each column in the matrix: ", arr);
+        PrintSumOfEachColumn($"The following are the sum of each Column in the matrix: ", CalcSumOfEachColumn(arr));
         Console.WriteLine("--------------------");
         var arr2 = FillArr(9, 9, 5, 500);
-        PrintSumOfEachColumn($"The following are the sum of each column in the matrix: ", arr2);
-
+        PrintSumOfEachColumn($"The following are the sum of each Column in the matrix: ", CalcSumOfEachColumn(arr2));
 
 
         Console.ReadKey();
@@ -46,9 +45,9 @@ class Program
             Console.Write("\n");
         }
     }
-    public static void PrintSumOfEachColumn(string text, int[,] arr)
+    public static int[] CalcSumOfEachColumn(int[,] arr)
     {
-        Console.WriteLine($"{text}");
+        int[] result = new int[arr.GetLength(0)];
         for (int i = 0; i < arr.GetLength(0); i++)
         {
             int sum = 0;
@@ -56,8 +55,18 @@ class Program
             {
                 sum += arr[j, i];
             }
-            Console.WriteLine($"Column {i + 1} Sum = {sum}");
+            result[i] = sum;
+        }
+        return result;
+    }
+    public static void PrintSumOfEachColumn(string text, int[] arr)
+    {
+        Console.WriteLine($"{text}");
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.WriteLine($"Column {i + 1} Sum = {arr[i]}");
         }
     }
+
 }
 
