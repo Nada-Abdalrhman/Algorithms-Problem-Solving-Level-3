@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3x3 Ordered matrix", "3x3 O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transpose Matrix", "Transpose Matrix\Transpose Matrix.csproj", "{22667E46-37D5-4055-8BDF-57FD423A7342}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply Two Matrices", "Multiply Two Matrices\Multiply Two Matrices.csproj", "{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{22667E46-37D5-4055-8BDF-57FD423A7342}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22667E46-37D5-4055-8BDF-57FD423A7342}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22667E46-37D5-4055-8BDF-57FD423A7342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
