@@ -10,6 +10,8 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
+**/bin/
+**/obj/
 
 # Mac bundle stuff
 *.dmg
@@ -173,6 +175,8 @@ ipch/
 *.cachefile
 *.VC.db
 *.VC.VC.opendb
+**/bin/
+**/obj/
 
 # Visual Studio profiler
 *.psess
