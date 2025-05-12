@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms & Problem Solvin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3X3 Random Matrix", "3X3 Random Matrix\3X3 Random Matrix.csproj", "{EAB19C3E-4E0C-4466-AC7B-FFB9C70CBE60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Each Row in Matrix", "Sum Each Row in Matrix\Sum Each Row in Matrix.csproj", "{960A5BA5-FAF0-4067-9FD7-035666320397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EAB19C3E-4E0C-4466-AC7B-FFB9C70CBE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAB19C3E-4E0C-4466-AC7B-FFB9C70CBE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAB19C3E-4E0C-4466-AC7B-FFB9C70CBE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960A5BA5-FAF0-4067-9FD7-035666320397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960A5BA5-FAF0-4067-9FD7-035666320397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960A5BA5-FAF0-4067-9FD7-035666320397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960A5BA5-FAF0-4067-9FD7-035666320397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
