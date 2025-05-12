@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transpose Matrix", "Transpo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiply Two Matrices", "Multiply Two Matrices\Multiply Two Matrices.csproj", "{2C1A37F7-76CE-4F65-BEB5-E499C55563B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Middle Row an Column of Matrix", "Print Middle Row an Column of Matrix\Print Middle Row an Column of Matrix.csproj", "{36102689-8971-4D7A-87D3-1016235B5E4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Middle Row and Column of Matrix", "Print Middle Row an Column of Matrix\Print Middle Row and Column of Matrix.csproj", "{36102689-8971-4D7A-87D3-1016235B5E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Matrix", "Sum of Matrix\Sum of Matrix.csproj", "{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{36102689-8971-4D7A-87D3-1016235B5E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36102689-8971-4D7A-87D3-1016235B5E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36102689-8971-4D7A-87D3-1016235B5E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

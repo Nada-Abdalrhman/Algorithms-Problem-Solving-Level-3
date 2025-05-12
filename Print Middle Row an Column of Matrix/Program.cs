@@ -1,10 +1,10 @@
-﻿namespace Print_Middle_Row_an_Column_of_Matrix;
+﻿namespace Print_Middle_Row_and_Column_of_Matrix;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Eight
+        // Problem Nine
         // Print Middle Row and Column of Matrix
         Matrix row = Matrix.Row;
         Matrix col = Matrix.Column;
@@ -51,7 +51,6 @@ class Program
         }
         Console.Write("\n");
     }
-
     public static void PrintMiddle(string text, int[,] arr, Matrix matrix)
     {
         int row = arr.GetLength(0);
