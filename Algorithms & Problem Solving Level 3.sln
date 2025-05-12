@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Each Column in Matrix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Each Column in Matrix in Array", "Sum Each Column in Matrix in Array\Sum Each Column in Matrix in Array.csproj", "{7907114E-95DC-45D8-900C-749AEECF59D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3x3 Ordered matrix", "3x3 Ordered matrix\3x3 Ordered matrix.csproj", "{6D4A0F14-DAA4-4685-88E4-741223B7B314}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{7907114E-95DC-45D8-900C-749AEECF59D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7907114E-95DC-45D8-900C-749AEECF59D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7907114E-95DC-45D8-900C-749AEECF59D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4A0F14-DAA4-4685-88E4-741223B7B314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4A0F14-DAA4-4685-88E4-741223B7B314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4A0F14-DAA4-4685-88E4-741223B7B314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4A0F14-DAA4-4685-88E4-741223B7B314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
