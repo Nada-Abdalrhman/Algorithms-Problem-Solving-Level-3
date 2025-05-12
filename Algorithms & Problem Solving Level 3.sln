@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3X3 Random Matrix", "3X3 Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Each Row in Matrix", "Sum Each Row in Matrix\Sum Each Row in Matrix.csproj", "{960A5BA5-FAF0-4067-9FD7-035666320397}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum Each Row in Matrix in Array", "Sum Each Row in Matrix in Array\Sum Each Row in Matrix in Array.csproj", "{0FCF8E1A-074B-4DBE-A146-E3D1099FDF8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{960A5BA5-FAF0-4067-9FD7-035666320397}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960A5BA5-FAF0-4067-9FD7-035666320397}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960A5BA5-FAF0-4067-9FD7-035666320397}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FCF8E1A-074B-4DBE-A146-E3D1099FDF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FCF8E1A-074B-4DBE-A146-E3D1099FDF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FCF8E1A-074B-4DBE-A146-E3D1099FDF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FCF8E1A-074B-4DBE-A146-E3D1099FDF8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
