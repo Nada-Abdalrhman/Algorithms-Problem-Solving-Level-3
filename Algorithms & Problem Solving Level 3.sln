@@ -45,6 +45,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Min&Max Number in Matrix", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome Matrix", "Palindrome Matrix\Palindrome Matrix.csproj", "{3C7B5C13-E5D3-46EF-802B-8D3C73FBCC1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Series", "Fibonacci Series\Fibonacci Series.csproj", "{FD2D066D-BE59-418E-ADBE-C029EBBA15BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci Series With Recursion", "Fibonacci Series With Recursion\Fibonacci Series With Recursion.csproj", "{BEB386EB-BF0C-4F13-A7B6-D10E2FBDB823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print First Letter of Each Word", "Print First Letter of Each Word\Print First Letter of Each Word.csproj", "{B07DCDE3-28D4-43D8-A1C4-CF429181059C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upper First Letter of Each Word", "Upper First Letter of Each Word\Upper First Letter of Each Word.csproj", "{1EF548E7-5EAC-4025-B140-3F91BD20B972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lower First Letter of Each Word", "Lower First Letter of Each Word\Lower First Letter of Each Word.csproj", "{B7FC365B-8209-4D47-B142-1892BED2B537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +145,26 @@ Global
 		{3C7B5C13-E5D3-46EF-802B-8D3C73FBCC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7B5C13-E5D3-46EF-802B-8D3C73FBCC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7B5C13-E5D3-46EF-802B-8D3C73FBCC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD2D066D-BE59-418E-ADBE-C029EBBA15BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD2D066D-BE59-418E-ADBE-C029EBBA15BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD2D066D-BE59-418E-ADBE-C029EBBA15BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD2D066D-BE59-418E-ADBE-C029EBBA15BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB386EB-BF0C-4F13-A7B6-D10E2FBDB823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB386EB-BF0C-4F13-A7B6-D10E2FBDB823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB386EB-BF0C-4F13-A7B6-D10E2FBDB823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB386EB-BF0C-4F13-A7B6-D10E2FBDB823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B07DCDE3-28D4-43D8-A1C4-CF429181059C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B07DCDE3-28D4-43D8-A1C4-CF429181059C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B07DCDE3-28D4-43D8-A1C4-CF429181059C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B07DCDE3-28D4-43D8-A1C4-CF429181059C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EF548E7-5EAC-4025-B140-3F91BD20B972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EF548E7-5EAC-4025-B140-3F91BD20B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EF548E7-5EAC-4025-B140-3F91BD20B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EF548E7-5EAC-4025-B140-3F91BD20B972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7FC365B-8209-4D47-B142-1892BED2B537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FC365B-8209-4D47-B142-1892BED2B537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FC365B-8209-4D47-B142-1892BED2B537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FC365B-8209-4D47-B142-1892BED2B537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
