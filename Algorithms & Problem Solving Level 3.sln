@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Typical Matrices", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Identity Matrix", "Check Identity Matrix\Check Identity Matrix.csproj", "{C054CEFF-603A-4E62-9E28-431AB9807A3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Scalar Matrix", "Check Scalar Matrix\Check Scalar Matrix.csproj", "{03EFAD88-4D0E-4678-9272-D9AB34B44445}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EFAD88-4D0E-4678-9272-D9AB34B44445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EFAD88-4D0E-4678-9272-D9AB34B44445}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EFAD88-4D0E-4678-9272-D9AB34B44445}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EFAD88-4D0E-4678-9272-D9AB34B44445}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

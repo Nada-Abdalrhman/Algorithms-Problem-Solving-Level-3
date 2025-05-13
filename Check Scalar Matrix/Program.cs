@@ -1,14 +1,14 @@
-﻿namespace Check_Identity_Matrix;
+﻿namespace Check_Scalar_Matrix;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Thirteen
-        // Check Identity Matrix
-        int[,] arr = new int[3, 3] { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
+        // Problem Fourteen
+        // Check Scalar Matrix
+        int[,] arr = new int[3, 3] { { 9, 0, 0 }, { 0, 9, 0 }, { 0, 0, 9 } };
         PrintMatrix("Matrix: ", arr);
-        CheckMatrixIdentity(arr);
+        CheckMatrixScalar(arr);
 
         Console.ReadKey();
     }
@@ -25,34 +25,34 @@ class Program
         }
         Console.Write("\n");
     }
-    public static bool IsIdentity(int[,] arr)
+    public static bool IsScalar(int[,] arr)
     {
         int rows = arr.GetLength(0);
         int columns = arr.GetLength(1);
         if (rows != columns)
             return false;
+        int num = arr[0, 0];
         for (int i = 0; i < rows; i++)
         {
             for (int j = 0; j < columns; j++)
             {
-                if ((i == j && arr[i, j] != 1) || (i != j && arr[i, j] != 0))
+                if ((i == j && arr[i, j] != num) || (i != j && arr[i, j] != 0))
                     return false;
             }
         }
         return true;
     }
-    public static void CheckMatrixIdentity(int[,] arr)
+    public static void CheckMatrixScalar(int[,] arr)
     {
-        if (IsIdentity(arr))
+        if (IsScalar(arr))
         {
-            Console.WriteLine($"Yes: Matrix is identity.");
+            Console.WriteLine($"Yes: Matrix is scalar.");
         }
         else
         {
-            Console.WriteLine($"No:  Matrix is not identity.");
+            Console.WriteLine($"No:  Matrix is not scalar.");
         }
 
     }
-
 }
 
