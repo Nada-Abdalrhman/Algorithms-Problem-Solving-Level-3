@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Matrices Equality", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Typical Matrices", "Check Typical Matrices\Check Typical Matrices.csproj", "{EAF98410-0771-4A21-A08E-10EF828EE9E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Identity Matrix", "Check Identity Matrix\Check Identity Matrix.csproj", "{C054CEFF-603A-4E62-9E28-431AB9807A3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{EAF98410-0771-4A21-A08E-10EF828EE9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF98410-0771-4A21-A08E-10EF828EE9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF98410-0771-4A21-A08E-10EF828EE9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C054CEFF-603A-4E62-9E28-431AB9807A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
