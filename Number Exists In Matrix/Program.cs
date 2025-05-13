@@ -1,14 +1,15 @@
-﻿namespace Count_Number_in_Matrix;
+﻿namespace Number_Exists_In_Matrix;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Fifteen
-        // Count Number in Matrix
+        // Problem Seventeen
+        // Number Exists In Matrix
         int[,] arr = FillArr(3, 3, 1, 9);
         PrintMatrix("Matrix: ", arr);
-        CountNum(arr, ReadNum("Enter the number to count in the matrix: "));
+        PrintResult(IsFound(arr, ReadNum("Please Enter the number to look for in matrix? ")));
+
 
         Console.ReadKey();
     }
@@ -36,7 +37,7 @@ class Program
         {
             for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write($"{arr[i, j].ToString("D2").PadRight(6)}");
+                Console.Write($"{arr[i, j].ToString().PadRight(6)}");
             }
             Console.Write("\n");
         }
@@ -48,23 +49,32 @@ class Program
         int num = int.Parse(Console.ReadLine());
         return num;
     }
-    public static void CountNum(int[,] arr, int num)
+    public static bool IsFound(int[,] arr, int num)
     {
         int rows = arr.GetLength(0);
         int columns = arr.GetLength(1);
-        int count = 0;
-        for(int i = 0; i < rows; i++)
+        for (int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < columns; j++)
+            for (int j = 0; j < columns; j++)
             {
                 if (arr[i, j] == num)
                 {
-                    count++;
+                    return true;
                 }
             }
         }
-        Console.WriteLine($"Number {num} count in matrix is {count}");
+        return false;
     }
-
+    public static void PrintResult(bool isfound)
+    {
+        if (isfound)
+        {
+            Console.WriteLine($"Yes, it is there.");
+        }
+        else
+        {
+            Console.WriteLine($"No, it is not there.");
+        }
+    }
 }
 

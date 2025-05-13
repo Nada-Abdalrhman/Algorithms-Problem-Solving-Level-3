@@ -1,14 +1,17 @@
-﻿namespace Count_Number_in_Matrix;
+﻿namespace Intersectes_Numbers_in_Matrices;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Fifteen
-        // Count Number in Matrix
-        int[,] arr = FillArr(3, 3, 1, 9);
-        PrintMatrix("Matrix: ", arr);
-        CountNum(arr, ReadNum("Enter the number to count in the matrix: "));
+        // Problem Eighteen
+        // Intersectes Numbers in Matrices
+        int[,] arr1 = FillArr(3, 3, 1, 10);
+        int[,] arr2 = FillArr(3, 3, 1, 10);
+        PrintMatrix("Matrix 1: ", arr1);
+        PrintMatrix("Matrix 2: ", arr2);
+        PrintIntersectes(arr1, arr2);
+
 
         Console.ReadKey();
     }
@@ -36,35 +39,44 @@ class Program
         {
             for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write($"{arr[i, j].ToString("D2").PadRight(6)}");
+                Console.Write($"{arr[i, j].ToString().PadRight(6)}");
             }
             Console.Write("\n");
         }
         Console.Write("\n");
     }
-    public static int ReadNum(string text)
-    {
-        Console.Write($"{text}");
-        int num = int.Parse(Console.ReadLine());
-        return num;
-    }
-    public static void CountNum(int[,] arr, int num)
+    public static bool IsFound(int[,] arr, int num)
     {
         int rows = arr.GetLength(0);
         int columns = arr.GetLength(1);
-        int count = 0;
+        for (int i = 0; i < rows; i++)
+        {
+            for (int j = 0; j < columns; j++)
+            {
+                if (arr[i, j] == num)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    public static void PrintIntersectes(int[,] arr1, int[,] arr2)
+    {
+        Console.WriteLine($"Intersected Numbers are: ");
+        int rows = arr1.GetLength(0);
+        int columns = arr1.GetLength(1);
         for(int i = 0; i < rows; i++)
         {
             for(int j = 0; j < columns; j++)
             {
-                if (arr[i, j] == num)
+                if (IsFound(arr2, arr1[i,j]))
                 {
-                    count++;
+                    Console.Write($"{arr1[i, j].ToString().PadRight(6)}");
                 }
             }
         }
-        Console.WriteLine($"Number {num} count in matrix is {count}");
+        Console.Write("\n");
     }
-
 }
 

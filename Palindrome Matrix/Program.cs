@@ -1,14 +1,18 @@
-﻿namespace Count_Number_in_Matrix;
+﻿namespace Palindrome_Matrix;
 
 class Program
 {
     static void Main(string[] args)
     {
-        // Problem Fifteen
-        // Count Number in Matrix
-        int[,] arr = FillArr(3, 3, 1, 9);
+        // Problem Twenty
+        // Palindrome Matrix
+        int[,] arr = new int[3,3] { { 1,2,1}, { 5,5,5}, { 7,3,7} };
         PrintMatrix("Matrix: ", arr);
-        CountNum(arr, ReadNum("Enter the number to count in the matrix: "));
+        printResult(IsPalindrome(arr));
+        Console.WriteLine($"-----------");
+        int[,] arr2 = FillArr(3, 3, 1, 9);
+        PrintMatrix("Matrix: ", arr2);
+        printResult(IsPalindrome(arr2));
 
         Console.ReadKey();
     }
@@ -36,35 +40,38 @@ class Program
         {
             for (int j = 0; j < arr.GetLength(1); j++)
             {
-                Console.Write($"{arr[i, j].ToString("D2").PadRight(6)}");
+                Console.Write($"{arr[i, j].ToString().PadRight(6)}");
             }
             Console.Write("\n");
         }
         Console.Write("\n");
     }
-    public static int ReadNum(string text)
-    {
-        Console.Write($"{text}");
-        int num = int.Parse(Console.ReadLine());
-        return num;
-    }
-    public static void CountNum(int[,] arr, int num)
+    public static bool IsPalindrome(int[,] arr)
     {
         int rows = arr.GetLength(0);
         int columns = arr.GetLength(1);
-        int count = 0;
+        if (rows != columns)
+            return false;
         for(int i = 0; i < rows; i++)
         {
-            for(int j = 0; j < columns; j++)
+            for(int j = 0; j < columns / 2; j++)
             {
-                if (arr[i, j] == num)
-                {
-                    count++;
-                }
+                if (arr[i, j] != arr[i, columns - j - 1])
+                    return false;
             }
         }
-        Console.WriteLine($"Number {num} count in matrix is {count}");
+        return true;
     }
-
+    public static void printResult(bool ispalindrome)
+    {
+        if (ispalindrome)
+        {
+            Console.WriteLine($"Yes: Matrix is Palindrome");
+        }
+        else
+        {
+            Console.WriteLine($"No: Matrix is not Palindrome");
+        }
+    }
 }
 
