@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Middle Row and Column
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum of Matrix", "Sum of Matrix\Sum of Matrix.csproj", "{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check Matrices Equality", "Check Matrices Equality\Check Matrices Equality.csproj", "{3DEB08F4-12D9-4091-99BB-2512F1726A7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1694FBE-425A-44D5-ADC7-CAD97CA1F9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEB08F4-12D9-4091-99BB-2512F1726A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEB08F4-12D9-4091-99BB-2512F1726A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEB08F4-12D9-4091-99BB-2512F1726A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEB08F4-12D9-4091-99BB-2512F1726A7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
