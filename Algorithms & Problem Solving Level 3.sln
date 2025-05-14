@@ -65,6 +65,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Small & Capital Lette
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Letters", "Count Letters\Count Letters.csproj", "{1C2471CF-2551-49DB-80BD-7977CA40043F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Letters Match Case", "Count Letters Match Case\Count Letters Match Case.csproj", "{B76E406E-C197-4655-A24E-F81EC320C3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Is Vowel", "Is Vowel\Is Vowel.csproj", "{9718D609-B56C-4B58-B0AB-00D8A120DC47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Vowel", "Count Vowel\Count Vowel.csproj", "{669DAC7A-F59E-44BA-9AAD-65C124B8153F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print All Vowels In String", "Print All Vowels In String\Print All Vowels In String.csproj", "{00875513-8A66-48DE-BA8E-FB15E5F01B93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Print Each Word In String", "Print Each Word In String\Print Each Word In String.csproj", "{94BEFAD4-BD21-43BA-A605-43A7163C26E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +205,26 @@ Global
 		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76E406E-C197-4655-A24E-F81EC320C3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76E406E-C197-4655-A24E-F81EC320C3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76E406E-C197-4655-A24E-F81EC320C3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76E406E-C197-4655-A24E-F81EC320C3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9718D609-B56C-4B58-B0AB-00D8A120DC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9718D609-B56C-4B58-B0AB-00D8A120DC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9718D609-B56C-4B58-B0AB-00D8A120DC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9718D609-B56C-4B58-B0AB-00D8A120DC47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669DAC7A-F59E-44BA-9AAD-65C124B8153F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669DAC7A-F59E-44BA-9AAD-65C124B8153F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669DAC7A-F59E-44BA-9AAD-65C124B8153F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669DAC7A-F59E-44BA-9AAD-65C124B8153F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00875513-8A66-48DE-BA8E-FB15E5F01B93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00875513-8A66-48DE-BA8E-FB15E5F01B93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00875513-8A66-48DE-BA8E-FB15E5F01B93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00875513-8A66-48DE-BA8E-FB15E5F01B93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BEFAD4-BD21-43BA-A605-43A7163C26E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BEFAD4-BD21-43BA-A605-43A7163C26E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BEFAD4-BD21-43BA-A605-43A7163C26E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BEFAD4-BD21-43BA-A605-43A7163C26E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
