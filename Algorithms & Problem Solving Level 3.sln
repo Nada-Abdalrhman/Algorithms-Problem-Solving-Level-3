@@ -55,6 +55,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upper First Letter of Each 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lower First Letter of Each Word", "Lower First Letter of Each Word\Lower First Letter of Each Word.csproj", "{B7FC365B-8209-4D47-B142-1892BED2B537}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Upper & Lower All Letters of a String", "Upper & Lower All Letters of a String\Upper & Lower All Letters of a String.csproj", "{88DA326A-1FAD-4D1D-AE7B-8A076B15EEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invert Character Case", "Invert Character Case\Invert Character Case.csproj", "{3541DAF0-4A56-4923-84E6-4DC75F81CCEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invert All Letters Case", "Invert All Letters Case\Invert All Letters Case.csproj", "{A886EA6C-202D-4EB0-8048-714219F5FAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Small & Capital Letters", "Count Small & Capital Letters\Count Small & Capital Letters.csproj", "{91C72D44-FFC7-4CC2-B357-0CA616380BBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Letters", "Count Letters\Count Letters.csproj", "{1C2471CF-2551-49DB-80BD-7977CA40043F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +175,26 @@ Global
 		{B7FC365B-8209-4D47-B142-1892BED2B537}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7FC365B-8209-4D47-B142-1892BED2B537}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7FC365B-8209-4D47-B142-1892BED2B537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DA326A-1FAD-4D1D-AE7B-8A076B15EEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DA326A-1FAD-4D1D-AE7B-8A076B15EEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DA326A-1FAD-4D1D-AE7B-8A076B15EEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DA326A-1FAD-4D1D-AE7B-8A076B15EEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3541DAF0-4A56-4923-84E6-4DC75F81CCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3541DAF0-4A56-4923-84E6-4DC75F81CCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3541DAF0-4A56-4923-84E6-4DC75F81CCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3541DAF0-4A56-4923-84E6-4DC75F81CCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A886EA6C-202D-4EB0-8048-714219F5FAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A886EA6C-202D-4EB0-8048-714219F5FAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A886EA6C-202D-4EB0-8048-714219F5FAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A886EA6C-202D-4EB0-8048-714219F5FAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C72D44-FFC7-4CC2-B357-0CA616380BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C72D44-FFC7-4CC2-B357-0CA616380BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C72D44-FFC7-4CC2-B357-0CA616380BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C72D44-FFC7-4CC2-B357-0CA616380BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2471CF-2551-49DB-80BD-7977CA40043F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Problem Twenty Four
+        // Problem Twenty Five
         // Lower First Letter of Each Word
         LowerFirstLetter(ReadText("Please Enter Your String? "));
 
