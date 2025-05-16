@@ -6,8 +6,9 @@ class Program
     {
         // Problem Thirty Five
         // Print Each Word In String
-        // PrintEachWord(ReadText("Please Enter Your String? "));
+        PrintEachWord(ReadText("Please Enter Your String? "));
         PrintEachWordAntherWay(ReadText("Please Enter Your String? "));
+
         Console.ReadKey();
     }
     public static string ReadText(string question)
